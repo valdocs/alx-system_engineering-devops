@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod drwx--x--x .
+find ./ -type d -exec chmod +x
